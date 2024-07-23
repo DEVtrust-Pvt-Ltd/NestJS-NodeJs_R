@@ -95,10 +95,12 @@ export class PlaylistsService {
     return `This action returns a #${id} playlist`;
   }
 
+//Update the playlist through ID
   update(id: number, updatePlaylistDto: UpdatePlaylistDto) {
     console.log(updatePlaylistDto);
     return `This action updates a #${id} playlist`;
   }
+
 
   remove(id: number) {
     return `This action removes a #${id} playlist`;
